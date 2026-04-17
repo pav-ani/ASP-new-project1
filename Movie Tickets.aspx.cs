@@ -23,13 +23,14 @@ namespace ASP_new_project1
         timings=="Evening";
         else if(radioNight.Checked)
         timings=="Night";
+        
         string Addones="";
         if(chckpopcorn.Checked)
-        add +="pop corn";
+        addones +="pop corn";
         else if(chcksamosa.Checked)
-        add +="samosa";
+        addones +="samosa";
         else if (chcksoftdrinks.Checked)
-        add += "softdrinks";
+        addones += "softdrinks";
 
         lblmsg.Text="name"+txtname.Text+"<br>"+
                      "email"+txtemail.Text+"<br>"+
