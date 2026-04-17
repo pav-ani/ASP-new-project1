@@ -17,18 +17,18 @@ namespace ASP_new_project1
         protected void btn_submitClick (object sender, EventArgs e)
         {
         string showtimeings="";
-        if(radioMorning.checked)
+        if(radioMorning.Checked)
         timings=="Morining";
-        else if (radioEvening .checked)
+        else if (radioEvening .Checked)
         timings=="Evening";
-        else if(radioNight.checked)
+        else if(radioNight.Checked)
         timings=="Night";
-        string Add-ones="";
-        if(chckpopcorn.checked)
+        string Addones="";
+        if(chckpopcorn.Checked)
         add +="pop corn";
-        else if(chcksamosa.checked)
-        add +="samosa"
-        else if (chcksoftdrinks.checked)
+        else if(chcksamosa.Checked)
+        add +="samosa";
+        else if (chcksoftdrinks.Checked)
         add += "softdrinks";
 
         lblmsg.Text="name"+"txtname.Text"+"<br>"+
