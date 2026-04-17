@@ -14,6 +14,29 @@ namespace ASP_new_project1
         {
 
         }
+        protected void btn_submitClick (object sender, EventArgs e)
+        {
+        string showtimeings="";
+        if(radioMorning.checked)
+        timings=="Morining";
+        else if (radioEvening .checked)
+        timings=="Evening";
+        else if(radioNight.checked)
+        timings=="Night";
+        string Add-ones="";
+        if(chckpopcorn.checked)
+        add +="pop corn";
+        else if(chcksamosa.checked)
+        add +="samosa"
+        else if (chcksoftdrinks.checked)
+        add += "softdrinks";
+
+        lblmsg.Text="name"+"txtname.Text"+"<br>"+
+                     "email"+"txtemail.Text"+"<br>"+
+                     "show timings"+"timings"+"<br>"+
+                     "Add-ones"+"add";
+                     
+        }
 
 
        
