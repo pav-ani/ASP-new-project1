@@ -31,10 +31,10 @@ namespace ASP_new_project1
         else if (chcksoftdrinks.Checked)
         add += "softdrinks";
 
-        lblmsg.Text="name"+"txtname.Text"+"<br>"+
-                     "email"+"txtemail.Text"+"<br>"+
-                     "show timings"+"timings"+"<br>"+
-                     "Add-ones"+"add";
+        lblmsg.Text="name"+txtname.Text+"<br>"+
+                     "email"+txtemail.Text+"<br>"+
+                     "show timings"+timings+"<br>"+
+                     "Add-ones"+addones;
                      
         }
 
